@@ -9,22 +9,64 @@ const ContentSideSkills = () => {
 			</h3>
 			<div className='content-side__skills-items'>
 				<div className='content-side__skills-item'>
-					<img src='/icons/content-side/skills/html.png' alt='' />
+					<img
+						className='black'
+						src='/icons/content-side/skills/html-black.svg'
+						alt=''
+					/>
+					<img
+						className='colorfull'
+						src='/icons/content-side/skills/html-colorfull.svg'
+						alt=''
+					/>
 				</div>
 				<div className='content-side__skills-item'>
-					<img src='/icons/content-side/skills/html.png' alt='' />
+					<img
+						className='black'
+						src='/icons/content-side/skills/html-black.svg'
+						alt=''
+					/>
+					<img
+						className='colorfull'
+						src='/icons/content-side/skills/html-colorfull.svg'
+						alt=''
+					/>
 				</div>
 				<div className='content-side__skills-item'>
-					<img src='/icons/content-side/skills/html.png' alt='' />
+					<img
+						className='black'
+						src='/icons/content-side/skills/html-black.svg'
+						alt=''
+					/>
+					<img
+						className='colorfull'
+						src='/icons/content-side/skills/html-colorfull.svg'
+						alt=''
+					/>
 				</div>
 				<div className='content-side__skills-item'>
-					<img src='/icons/content-side/skills/html.png' alt='' />
+					<img
+						className='black'
+						src='/icons/content-side/skills/html-black.svg'
+						alt=''
+					/>
+					<img
+						className='colorfull'
+						src='/icons/content-side/skills/html-colorfull.svg'
+						alt=''
+					/>
 				</div>
 				<div className='content-side__skills-item'>
-					<img src='/icons/content-side/skills/html.png' alt='' />
-				</div>
-				<div className='content-side__skills-item'>
-					<img src='/icons/content-side/skills/html.png' alt='' />
+					<img
+						className='black'
+						src='/icons/content-side/skills/html-black.svg'
+						alt=''
+					/>
+					<img
+						className='colorfull'
+						src='/icons/content-side/skills/html-colorfull.svg'
+						alt=''
+					/>
 				</div>
 			</div>
 

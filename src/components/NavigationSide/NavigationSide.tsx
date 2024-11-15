@@ -6,6 +6,9 @@ const NavigationSide = () => {
 		<header className='navigation-side'>
 			<div>
 				<div className='navigation-side__header'>
+					<div className='navigation-side__image'>
+						<img src='http://127.0.0.1:5500/img/profile.jpg' alt='' />
+					</div>
 					<h1 className='navigation-side__title'>Brittany Chiang</h1>
 					<h2 className='navigation-side__subtitle'>Front End Engineer</h2>
 					<p className='navigation-side__text'>
