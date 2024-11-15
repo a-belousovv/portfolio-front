@@ -4,7 +4,7 @@ import '/src/components/NavigationSide/style.scss';
 const NavigationSide = () => {
 	return (
 		<header className='navigation-side'>
-			<div>
+			<div className='box'>
 				<div className='navigation-side__header'>
 					<div className='navigation-side__image'>
 						<img src='http://127.0.0.1:5500/img/profile.jpg' alt='' />
