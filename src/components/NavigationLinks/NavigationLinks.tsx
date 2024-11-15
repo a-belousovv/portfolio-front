@@ -17,6 +17,18 @@ const NavigationLinks = () => {
 			id: 'projects',
 			text: 'PROJECTS',
 		},
+		{
+			id: 'education',
+			text: 'EDUCATION',
+		},
+		{
+			id: 'skills',
+			text: 'SKILLS',
+		},
+		{
+			id: 'interests',
+			text: 'INTERESTS',
+		},
 	];
 
 	return (
