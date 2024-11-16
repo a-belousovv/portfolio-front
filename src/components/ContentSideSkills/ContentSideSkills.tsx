@@ -1,73 +1,23 @@
+import { useGetTechnologies } from '../../hooks/useGetTechnologies';
 import { useIntersectionHook } from '../../hooks/useIntersectionHook';
 
 const ContentSideSkills = () => {
 	const { intersectionRef } = useIntersectionHook('skills');
+
+	const skills = useGetTechnologies();
 	return (
 		<div className='content-side__skills' ref={intersectionRef} id='skills'>
 			<h3 className='content-side__skills-title'>
 				Programming Languages & Tools
 			</h3>
 			<div className='content-side__skills-items'>
-				<div className='content-side__skills-item'>
-					<img
-						className='black'
-						src='/icons/content-side/skills/html-black.svg'
-						alt=''
-					/>
-					<img
-						className='colorfull'
-						src='/icons/content-side/skills/html-colorfull.svg'
-						alt=''
-					/>
-				</div>
-				<div className='content-side__skills-item'>
-					<img
-						className='black'
-						src='/icons/content-side/skills/html-black.svg'
-						alt=''
-					/>
-					<img
-						className='colorfull'
-						src='/icons/content-side/skills/html-colorfull.svg'
-						alt=''
-					/>
-				</div>
-				<div className='content-side__skills-item'>
-					<img
-						className='black'
-						src='/icons/content-side/skills/html-black.svg'
-						alt=''
-					/>
-					<img
-						className='colorfull'
-						src='/icons/content-side/skills/html-colorfull.svg'
-						alt=''
-					/>
-				</div>
-				<div className='content-side__skills-item'>
-					<img
-						className='black'
-						src='/icons/content-side/skills/html-black.svg'
-						alt=''
-					/>
-					<img
-						className='colorfull'
-						src='/icons/content-side/skills/html-colorfull.svg'
-						alt=''
-					/>
-				</div>
-				<div className='content-side__skills-item'>
-					<img
-						className='black'
-						src='/icons/content-side/skills/html-black.svg'
-						alt=''
-					/>
-					<img
-						className='colorfull'
-						src='/icons/content-side/skills/html-colorfull.svg'
-						alt=''
-					/>
-				</div>
+				{skills.map((skill) => {
+					return (
+						<div className='content-side__skills-item' key={skill.id}>
+							<img src={skill.icon} alt='' />
+						</div>
+					);
+				})}
 			</div>
 
 			<h4 className='content-side__skills-title'>Workflow</h4>

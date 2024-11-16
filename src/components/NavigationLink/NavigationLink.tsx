@@ -11,6 +11,7 @@ const NavigationLink = ({
 }) => {
 	return (
 		<a
+			target='_blank'
 			href={`#${id}`}
 			onClick={() => setCurrentActiveLink(id)}
 			className={`navigation-side__link ${
