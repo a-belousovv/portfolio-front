@@ -19,21 +19,6 @@ const ContentSideSkills = () => {
 					);
 				})}
 			</div>
-
-			<div className='content-side__skills-list'>
-				<p className='content-side__skills-item'>
-					Mobile-First, Responsive Design
-				</p>
-				<p className='content-side__skills-item'>
-					Mobile-First, Responsive Design
-				</p>
-				<p className='content-side__skills-item'>
-					Mobile-First, Responsive Design
-				</p>
-				<p className='content-side__skills-item'>
-					Mobile-First, Responsive Design
-				</p>
-			</div>
 		</div>
 	);
 };
