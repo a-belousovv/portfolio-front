@@ -20,8 +20,6 @@ const ContentSideSkills = () => {
 				})}
 			</div>
 
-			<h4 className='content-side__skills-title'>Workflow</h4>
-
 			<div className='content-side__skills-list'>
 				<p className='content-side__skills-item'>
 					Mobile-First, Responsive Design
